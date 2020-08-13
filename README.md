@@ -1,12 +1,13 @@
-[![Work in Repl.it](https://classroom.github.com/assets/work-in-replit-14baed9a392b3a25080506f3b7b6d57f295ec2978f6f33ec97e36a161684cbe9.svg)](https://classroom.github.com/online_ide?assignment_repo_id=2970329&assignment_repo_type=AssignmentRepo)
 # Collections Exercise
 
 ## Intention
 
-This program intends to remove strings containing 'oggy' from a list of strings, because oggy I want cockroches to live peacefully. 
+This program intends to remove strings containing 'oggy' from a list of strings.
+
+Everyone wants cockroches to live peacefully.
 
 ## Method
 
-Since, we can not remove item of list while iterating it.
+Item can not be from a list while iterating it. 
 
-Hence, I use for loop to traverse in list and check whether name starts with "oggy", and then, remove it.
+Use for loop to iterate and remove item from the list.
