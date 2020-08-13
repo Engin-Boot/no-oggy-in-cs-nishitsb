@@ -9,7 +9,7 @@ class NoOggyChecker
     {
         if(name.StartsWith("oggy")) {
             Console.WriteLine($"Need to remove {name}!");
-            names.Remove(name);
+            newList.Add(name);
         }
     }
   }
@@ -21,8 +21,9 @@ class NoOggyChecker
   {
     var names = new List<string>
       { "nobita", "bheem", "oggy", "oggy cockroach", "ninja" };
+    var newList = new List<string>{};
     RemoveOggy(names);
-    if(OggyIsRemoved(names)) {
+    if(OggyIsRemoved(newList)) {
       Console.WriteLine("Passed!");
       return 0;
     } else {
