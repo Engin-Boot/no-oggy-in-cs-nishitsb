@@ -3,10 +3,10 @@
 
 ## Intention
 
-This program intends to remove strings containing 'oggy' from a list of strings.
+This program intends to remove strings containing 'oggy' from a list of strings, because oggy I want cockroches to live peacefully. 
 
 ## Method
 
-The code doesn't work according to the intention. Make it succeed.
+Since, we can not remove item of list while iterating it.
 
-Don't forget to update this file after fixing the code.
+Hence, I use for loop to traverse in list and check whether name starts with "oggy", and then, remove it.
